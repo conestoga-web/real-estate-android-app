@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/bot_home" android:title="@string/bot_home" android:icon="@drawable/ic_home"/>
+    <item android:id="@+id/bot_forsale" android:title="@string/bot_forsale" android:icon="@drawable/ic_sale"/>
+    <item android:id="@+id/bot_forrent" android:title="@string/bot_forrent" android:icon="@drawable/ic_rent"/>
+
+</menu>

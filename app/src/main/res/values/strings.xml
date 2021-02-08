@@ -1,0 +1,67 @@
+<resources>
+    <string name="navigation_drawer_open">navigation drawer open</string>
+    <string name="navigation_drawer_close">navigation drawer close</string>
+
+    <string name="app_name">Conestoga Estates</string>
+    <string name="company_logo">Emporté par le vent</string>
+    <string name="company_name">Conestoga Estates</string>
+    <string name="about_company"><b>Modern Technology</b>, Full Service Team. <b>Browse Listings</b>, Sold Prices and Market Stats. Filter Homes by Price, <b>Location</b>, Bedrooms, Parking and More.</string>
+    <string name="brwose_button">Browse Property</string>
+    <string name="selectoption">Select Option</string>
+
+    <string name="bedroom">bed</string>
+    <string name="furnished">furnished</string>
+    <string name="size">sqft</string>
+    <string name="bathroom">bath</string>
+    <string name="price">price</string>
+    <string name="datelisted">date listed</string>
+    <string name="buynow">Book With Advance</string>
+    <string name="proptype">type</string>
+    <string name="propdesc">About Property</string>
+
+    <string name="chkDesc">You have selected following Product. Complete Your Order Below</string>
+    <string name="chkCredit">Select Payment Method</string>
+    <string name="rdb1">Visa</string>
+    <string name="rdb2">Debit</string>
+    <string name="rdb3">Cash</string>
+    <string name="checkout">Checkout</string>
+
+
+    <string name="newsearch">View Property Map</string>
+    <string name="forsale">Property For Sale</string>
+    <string name="forrent">Property For Rent</string>
+    <string name="recview">Recently Viewed</string>
+    <string name="recsearch">Recently Searched</string>
+
+    <!-- Checkout Strings-->
+    <string name="signup">Sign Up</string>
+    <string name="signin">Sign In</string>
+    <string name="enteremail">Enter Your Email</string>
+    <string name="enterpass">Enter Your Password</string>
+    <string name="btnsignin">SIGN IN</string>
+    <string name="btnsignup">SIGN UP</string>
+
+    <string name="namehint">Name: as lastname, firstname</string>
+    <string name="emailhint">Email: as xyz@xyz.com</string>
+    <string name="phonehint">Phone: as 111-111-1111</string>
+    <string name="passhint">Password: (min length 8)</string>
+    <string name="repasshint">Re-enter Password</string>
+    <string name="cnfcheckout">Checkout Confirmation</string>
+    <string name="btndone">Done</string>
+
+
+    <string name="signin_instruction">Please fill the required fields for the sign-in process and push the button. If your attempt fails for 3 times, please follow the following instruction. If you don\'t have an account yet, you can move to the process for sign-up.</string>
+    <string name="back_to_signin">Back To Signin</string>
+    <string name="submit_signup">Submit</string>
+
+    <!-- bottom navigation -->
+    <string name="title_activity_sale">Property for Sale</string>
+    <string name="title_activity_rent">Property for Rent</string>
+
+
+    <string name="bot_home">Home</string>
+    <string name="bot_forsale">For Sale</string>
+    <string name="bot_forrent">For Rent</string>
+
+
+</resources>

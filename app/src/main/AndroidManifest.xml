@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?><manifest xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+package="com.example.Conestoga_Real_Estate">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+<application
+    tools:replace="android:appComponentFactory"
+    android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+    android:allowBackup="true"
+    android:icon="@drawable/ic_launcher"
+    android:label="@string/app_name"
+    android:roundIcon="@drawable/ic_launcher_round"
+    android:supportsRtl="true"
+    android:theme="@style/AppTheme">
+
+    <meta-data
+        android:name="com.google.android.gms.version"
+        android:value="@integer/google_play_services_version" />
+    <meta-data
+        android:name="com.google.android.geo.API_KEY"
+        android:value="Here for Google api key value" />
+
+
+    <activity
+        android:name="com.example.Conestoga_Real_Estate.PropertyActivity"
+        android:parentActivityName="com.example.Conestoga_Real_Estate.MainActivity" />
+    <activity
+        android:name="com.example.Conestoga_Real_Estate.MainActivity"
+        android:theme="@style/AppTheme.NoActionBar">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+    <activity
+        android:name="com.example.Conestoga_Real_Estate.CheckoutConfirmActivity"
+        android:noHistory="true"></activity>
+
+    <activity android:name="com.example.Conestoga_Real_Estate.SignupActivity" />
+    <activity android:name="com.example.Conestoga_Real_Estate.LoginActivity" />
+    <activity android:name="com.example.Conestoga_Real_Estate.ViewActivity" android:parentActivityName="com.example.Conestoga_Real_Estate.MainActivity" />
+    <activity android:name="com.example.Conestoga_Real_Estate.DisplayActivity" />
+    <activity android:name="com.example.Conestoga_Real_Estate.CheckoutActivity"  android:noHistory="true"/>
+    <activity android:name="com.example.Conestoga_Real_Estate.ProductActivity" />
+    <activity android:name="com.example.Conestoga_Real_Estate.SearchActivity" android:parentActivityName="com.example.Conestoga_Real_Estate.MainActivity" />
+    <activity android:name="com.example.Conestoga_Real_Estate.MapActivity"  />
+    <activity android:name="com.example.Conestoga_Real_Estate.SaleActivity" android:label="@string/title_activity_sale" android:parentActivityName="com.example.Conestoga_Real_Estate.MainActivity" />
+    <activity android:name="com.example.Conestoga_Real_Estate.RentActivity" android:label="@string/title_activity_rent" android:parentActivityName="com.example.Conestoga_Real_Estate.MainActivity" />
+
+
+</application>
+</manifest>

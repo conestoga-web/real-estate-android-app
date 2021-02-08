@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:title="@string/selectoption">
+            <menu>
+                <item
+                    android:id="@+id/dhome"
+                    android:icon="@drawable/ic_home"
+                    android:title="Show Home" />
+                <item
+                    android:id="@+id/newsearch"
+                    android:icon="@drawable/ic_search"
+                    android:title="@string/newsearch" />
+                <item android:id="@+id/forrent" android:title="@string/forrent"  android:icon="@drawable/ic_rent"/>
+            <item android:id="@+id/forsale" android:title="@string/forsale"  android:icon="@drawable/ic_sale"/>
+            </menu>
+        </item>
+    </group>
+
+    <item android:id="@+id/recview" android:title="@string/recview" android:icon="@drawable/ic_recent"/>
+    <!--item android:id="@+id/recsearch" android:title="@string/recsearch"  android:icon="@drawable/ic_recent" /-->
+
+</menu>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/transparent">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="282dp"
+        android:layout_height="103dp"
+        android:layout_above="@+id/txtName"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="94dp"
+        android:layout_marginBottom="0dp"
+        android:contentDescription="@string/company_logo"
+        app:srcCompat="@drawable/logo" />
+
+
+    <TextView
+        android:id="@+id/about_company"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="51dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/about_company"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:typeface="sans" />
+
+    <Button
+        android:id="@+id/showProp"
+        style="@android:style/Widget.Button"
+        android:layout_width="156dp"
+        android:layout_height="38dp"
+        android:layout_below="@+id/about_company"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="8dp"
+        android:background="#d0a23e"
+        android:fontFamily="sans-serif"
+        android:shadowColor="@android:color/black"
+        android:text="@string/brwose_button"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+</RelativeLayout>
